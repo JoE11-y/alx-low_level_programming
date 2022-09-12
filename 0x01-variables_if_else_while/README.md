@@ -54,3 +54,8 @@ Write a program that prints all single digit numbers of base 10 starting from 0,
 - 101-print_comb4.c
 
 	Write a program that prints all possible different combinations of three digits.Numbers must be separated by ,, followed by a space. The three digits must be different
+
+
+- 102-print_comb5.c
+
+	Write a program that prints all possible combinations of two two-digit numbers. The numbers should range from 0 to 99. wqThe two numbers should be separated by a space
