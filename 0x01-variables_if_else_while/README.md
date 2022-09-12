@@ -39,3 +39,8 @@ Write a program that prints all single digit numbers of base 10 starting from 0,
 - 8-print_base16.c
 
 	Write a program that prints all the numbers of base 16 in lowercase, followed by a new line.
+
+
+- 9-print_comb.c
+
+	 Write a program that prints all possible combinations of single-digit numbers. Numbers must be separated by , followed by a space
