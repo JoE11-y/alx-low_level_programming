@@ -49,15 +49,17 @@ void print_to_98(int n)
 				{
 					i = (n / 100) * -1;
 					j = ((n / 10) * -1) - 10;
+					_putchar(i + '0');
+					_putchar(j + '0');
 				}
 				else
 				{
-					i = 0;
 					j = (n / 10) * -1;
+
+					if (j > 0)
+						_putchar(j + '0');
 				}
 				k = (n % 10) * -1;
-				_putchar(i + '0');
-				_putchar(j + '0');
 				_putchar(k + '0');
 			}
 			else
