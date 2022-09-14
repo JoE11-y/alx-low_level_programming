@@ -20,6 +20,7 @@ void print_to_98(int n)
 			{
 				i = n / 100;
 				j = (n / 10) - 10;
+			}
 			else
 			{
 				i = 0;
@@ -51,7 +52,7 @@ void print_to_98(int n)
 			{
 				_putchar('-');
 
-				if ((n * -1) >= 100))
+				if ((n * -1) >= 100)
 				{
 					i = (n / 100) * -1;
 					j = ((n / 10) * -1) - 10;
