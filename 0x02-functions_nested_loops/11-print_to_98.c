@@ -56,10 +56,8 @@ void print_to_98(int n)
 					j = (n / 10) * -1;
 				}
 				k = (n % 10) * -1;
-				if (i > 0)
-					_putchar(i + '0');
-				if (j > 0)
-					_putchar(j + '0');
+				_putchar(i + '0');
+				_putchar(j + '0');
 				_putchar(k + '0');
 			}
 			else
